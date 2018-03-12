@@ -129,7 +129,7 @@ class BennosPizzaNeu extends JFrame {
     c.fill = GridBagConstraints.BOTH;
     c.insets = new Insets(0, 5, 0, 5);
     add(ueberschrift, c);
-    
+    /*
     BufferedImage mypic;
 	try {
 		mypic = ImageIO.read(this.getClass().getResource("pizza.jpg"));
@@ -149,7 +149,7 @@ class BennosPizzaNeu extends JFrame {
 	catch (IllegalArgumentException ex) {
 		System.err.println("Datei nicht gefunden!");
 	}
-	
+	*/
     Font schriftart = new Font("SansSerif", Font.PLAIN, 12);
     c.gridx = 0; 
     c.gridy = 2;
