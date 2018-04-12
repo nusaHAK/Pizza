@@ -1,6 +1,4 @@
 
-
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.GridBagConstraints;
@@ -159,7 +157,7 @@ class BennosPizzaNeu extends JFrame {
     c.fill = GridBagConstraints.NONE;
     lblName  = new JLabel("Name:");
     lblName.setFont(schriftart);
-    add(lblName, c);
+    add(lblName, c);  
 
     c.gridx = 0; 
     c.gridy = 3;
